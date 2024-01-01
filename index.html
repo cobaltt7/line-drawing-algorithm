@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Line Drawing Algorithm</title>
+		<script type="module" defer src="./line.js"></script>
+	</head>
+	<body>
+		<form>
+			<p>
+				<div>Point 1</div>
+				<label>X <input type="number" name="x1" max="500" min="0" /></label>
+				<label>Y <input type="number" name="y1" max="500" min="0" /></label>
+			</p>
+			<p>
+				<div>Point 2</div>
+				<label>X <input type="number" name="x2" max="500" min="0" /></label>
+				<label>Y <input type="number" name="y2" max="500" min="0" /></label>
+			</p>
+			<p><button type="submit">Draw Line</button></p>
+		</form>
+		<canvas
+			width="500"
+			height="500"
+			style="border: 1px solid black"
+		></canvas>
+	</body>
+</html>

@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"allowJs": true,
+		"checkJs": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"target": "ESNext",
+		"noEmit": true
+	},
+	"files": ["index.js"],
+	"include": []
+}
